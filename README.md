@@ -7,7 +7,7 @@ The brightnessctl package is the only one that managed to change the brightness 
 1. Download the files as a ZIP or clone into a temporary directory.
 2. Move `brightnessctl.sh` to `~/.config/polybar/` file.
 3. Make `brightnessctl.sh` executable by executing `chmod u+x ~/.config/polybar/brightnessctl.sh`.
-4. Decide where you will put the module. Depending on your choice, add `brightnessctl` to the `modules-left=`,`modules-center=` or `modules-right=` row in your polybar config file.
+4. Decide where you will put the module. Depending on your choice, add `brightnessctl` to the `modules-left`,`modules-center` or `modules-right` variable in your polybar config file.
 5. Add the following lines to the `~/.config/polybar/config` file:
     
 ```
