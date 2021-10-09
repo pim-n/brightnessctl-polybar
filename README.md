@@ -1,9 +1,9 @@
-# brightnessctl polybar module
+### brightnessctl polybar module
 Polybar module using a custom script for adjusting screen brightness using the brightnessctl package.
 
 The brightnessctl package is the only one that managed to change the brightness of my laptop screen. Other packages failed to work. Therefore, I wrote this script and module to be able to adjust screen brightness using brightnessctl from polybar. It is adjusted by scrolling up and down on the module.
 
-## Installation
+### Installation
 1. Download the files as a ZIP or clone into a temporary directory.
 2. Move `brightnessctl.sh` to `~/.config/polybar/` file.
 3. Make `brightnessctl.sh` executable by executing `chmod u+x ~/.config/polybar/brightnessctl.sh`.
@@ -24,5 +24,5 @@ label = %output%
 label-foreground = #FFFFFF
 ```
 
-## Note
+### Note
 - This module uses a custom icon from the `MaterialIcons` font package. If you do not have this you may install it, or choose your own gliph, simply replace the character that is assigned to `format-prefix`.
