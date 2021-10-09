@@ -1,0 +1,22 @@
+......
+......
+......
+
+[bar/top]
+modules-right = brightnessctl
+
+......
+......
+......
+
+[module/brightnessctl]
+type = custom/script
+exec = ~/.config/polybar/brightnessctl.sh
+
+scroll-up = exec brightnessctl set +5%
+scroll-down = exec brightnessctl set 5%-
+interval = 0.2
+
+format-prefix = " "
+label = %output%
+label-foreground = #FFFFFF
