@@ -15,8 +15,7 @@ exec = ~/.config/polybar/brightnessctl.sh
 
 scroll-up = exec brightnessctl set +5%
 scroll-down = exec brightnessctl set 5%-
-interval = 0.2
+interval = 0.5
 
-format-prefix = " "
 label = %output%
-label-foreground = #FFFFFF
+label-foreground = ${colors.foreground} 
