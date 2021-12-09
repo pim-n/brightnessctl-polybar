@@ -26,4 +26,4 @@ label-foreground = ${colors.foreground}
 6. Adjust the `interval` and `label-foreground` values to your liking.
 
 ### Note
-- This module uses custom icons from the `MaterialIcons` font package by Google. If you do not have this you may install it (it's most likely in your repository), or choose your own gliph, simply replace the character that is assigned to `format-prefix`.
+- This module uses custom icons from the `MaterialIcons` font package by Google. If you do not have this you may install it (it's most likely in your repository), or choose your own gliph, simply replace the characters that are assigned in the shell script.
